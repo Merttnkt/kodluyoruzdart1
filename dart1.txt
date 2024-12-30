@@ -1,0 +1,39 @@
+void main() {
+  // a. Temel veri tipleriyle değişkenler
+  int sayi = 42;
+  String metin = "Merhaba";
+  double ondalik = 3.14;
+  bool durum = true;
+  dynamic dinamik = "Değişken";
+  String char = "A";
+
+  print("Temel değişkenler:");
+  print("int: $sayi");
+  print("String: $metin");
+  print("double: $ondalik");
+  print("bool: $durum");
+  print("dynamic: $dinamik");
+  print("char: $char");
+
+  // b. Farklı case kullanımları
+  String camelCaseText = "camelCase";
+  String snake_case_text = "snake_case";
+  String PascalCaseText = "PascalCase";
+
+  print("\nFarklı case kullanımları:");
+  print(camelCaseText);
+  print(snake_case_text);
+  print(PascalCaseText);
+
+  // c. Kişisel bilgiler
+  String ad = "Mert";
+  String soyad = "Tankit";
+  int yas = 18;
+  bool resitMi = true;
+
+  print("\nKişisel bilgiler:");
+  print("Ad: $ad");
+  print("Soyad: $soyad");
+  print("Yaş: $yas");
+  print("Reşit mi: $resitMi");
+}
